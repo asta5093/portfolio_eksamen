@@ -14,11 +14,17 @@ body {
   background-color: var(--beige);
 }
 
+html {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 main {
   margin: 2rem;
-
   background-color: var(--beige);
 }
+
 header {
   margin-right: 2rem;
   margin-left: 2rem;
@@ -39,14 +45,15 @@ a {
 
 nav ul {
   list-style: none;
+  font-size: 1rem;
   display: flex;
-  font-size: 0.8rem;
-  justify-content: space-between;
+  justify-content: flex-end;
   text-align: center;
   font-family: "Cambria", "Times New Roman";
   text-transform: uppercase;
+  padding: 1.5%;
 
-  /*fjern user agent stylesheet i chrome*/
+  /*fjern user agent stylesheet i browser (chrome)*/
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -94,4 +101,109 @@ h2 {
 /****************************************Padding***************************************/
 .padding1 {
   padding: 1rem;
+}
+
+.box {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #045416;
+  padding: 1%;
+  border-radius: 50px;
+}
+
+/****************************************Burgermenu***************************************/
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #045416;
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 60px;
+}
+
+/* kan slettes */
+.nav-branding {
+  font-size: 2rem;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+/* virker ikke */
+.nav-link :hover {
+  color: white;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #045416;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 0px;
+    gap: 0;
+    padding-top: 10%;
+    flex-direction: column;
+    background-color: #f2c15f;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 768px) {
 }
