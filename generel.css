@@ -7,6 +7,7 @@
 :root {
   --beige: #fef6ed;
   --darkgreen: #045416;
+  --lightgreen: #658f6f;
   --yellow: #f2c15f;
 }
 
@@ -94,15 +95,72 @@ h2 {
   font-family: "cambria";
   text-transform: uppercase;
   font-weight: lighter;
+  font-size: 2rem;
 }
 
+h3 {
+  color: var(--darkgreen);
+  font-family: "cambria";
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+h4 {
+  color: var(--beige);
+  font-family: Miller Banner, "Times New Roman";
+  font-size: 2rem;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: lighter;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.overskrift_center {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.overskrift_left {
+  text-decoration: underline;
+}
+
+.tekst_center {
+  text-align: center;
+}
+
+hr {
+  border: 1px solid var(--darkgreen);
+  margin-bottom: 1rem;
+}
 /****************************************Margin***************************************/
+.margin_bottom2 {
+  margin-bottom: 2rem;
+}
 
 /****************************************Padding***************************************/
 .padding1 {
   padding: 1rem;
 }
 
+.padding_bottom2 {
+  padding-bottom: 2rem;
+}
+
+/****************************************Design***************************************/
+.greenbox {
+  background-color: var(--lightgreen);
+  padding: 2rem;
+}
+
+/*original box til logo. Kan omformuleres til knapper*/
 .box {
   border-width: 1px;
   border-style: solid;
