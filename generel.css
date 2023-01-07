@@ -136,18 +136,57 @@ p {
   text-align: center;
 }
 
+.h1_port {
+  color: var(--darkgreen);
+  font-family: Miller Banner, "Times New Roman";
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.h2_port {
+  color: var(--darkgreen);
+  font-family: "cambria";
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1.7rem;
+  padding-bottom: 0.5rem;
+}
+
 hr {
   border: 1px solid var(--darkgreen);
   margin-bottom: 1rem;
 }
+
 /****************************************Margin***************************************/
+.margin_top1 {
+  margin-top: 1rem;
+}
+.margin_bottom1 {
+  margin-bottom: 1rem;
+}
+
+.margin_top2 {
+  margin-top: 2rem;
+}
 .margin_bottom2 {
   margin-bottom: 2rem;
+}
+
+.margin_top3 {
+  margin-top: 3rem;
+}
+.margin_bottom3 {
+  margin-bottom: 3rem;
 }
 
 /****************************************Padding***************************************/
 .padding1 {
   padding: 1rem;
+}
+
+.padding_top2 {
+  padding-top: 2rem;
 }
 
 .padding_bottom2 {
@@ -161,12 +200,37 @@ hr {
 }
 
 /*original box til logo. Kan omformuleres til knapper*/
-.box {
-  border-width: 1px;
-  border-style: solid;
-  border-color: #045416;
-  padding: 1%;
+.knap1 {
+  background-color: var(--darkgreen);
+  color: var(--yellow);
+  font-family: Miller Banner, "Times New Roman";
+  padding: 2% 7%;
   border-radius: 50px;
+  font-size: 1.5rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.knap2 {
+  background-color: var(--darkgreen);
+  color: var(--beige);
+  font-family: Miller Banner, "Times New Roman";
+  padding: 2% 7%;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.cat_background {
+  background-color: #d6aeff;
+  margin-bottom: 1rem;
+}
+
+video {
+  width: 100%;
 }
 
 /****************************************Burgermenu***************************************/
