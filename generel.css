@@ -222,7 +222,7 @@ hr {
   display: block;
   width: 100%;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .knap2 {
@@ -249,12 +249,6 @@ hr {
   width: 100%;
   text-align: center;
   margin-bottom: 2rem;
-}
-
-.cat_background {
-  background-color: #d6aeff;
-  margin-bottom: 1rem;
-  height: 588px;
 }
 
 video {
@@ -298,7 +292,7 @@ a {
   justify-content: flex-end;
   align-items: center;
   gap: 60px;
-  margin-right: 1%;
+  margin-right: 2rem;
 }
 
 /* kan slettes */
@@ -329,7 +323,7 @@ a {
   background-color: #045416;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1020px) {
   .hamburger {
     display: block;
   }
@@ -382,7 +376,7 @@ a {
   }
 
   h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   #footertekst {
@@ -390,9 +384,9 @@ a {
   }
 }
 
-/*********************desktop*********************/
-
 @media (min-width: 1020px) {
+  /*********************layout*********************/
+
   .grid2x1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -439,6 +433,7 @@ a {
     height: auto;
     width: 100%;
     margin-left: auto;
+    margin-right: 0;
   }
   /*********************tekst*********************/
 
@@ -455,6 +450,8 @@ a {
     padding-bottom: 0.5rem;
     padding-top: 5rem;
   }
+
+  /*********************knapper*********************/
 
   .knap1 {
     background-color: var(--darkgreen);
@@ -480,10 +477,6 @@ a {
     width: 100%;
     text-align: center;
     margin-bottom: 2rem;
-  }
-
-  .order1 {
-    order: -1;
   }
 }
 
