@@ -50,7 +50,7 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   text-align: center;
-  font-family: "Cambria", "Times New Roman";
+  font-family: Cambria, "Times New Roman";
   text-transform: uppercase;
   padding: 1.5%;
 
@@ -73,7 +73,7 @@ footer {
   padding-right: 2rem;
   padding-bottom: 3rem;
   padding-top: 3rem;
-  font-family: Miller Banner, "Times New Roman";
+  font-family: "Miller Banner", "Times New Roman";
   font-style: italic;
   text-transform: uppercase;
   font-size: 2.6rem;
@@ -84,7 +84,7 @@ footer {
 /****************************************tekst***************************************/
 h1 {
   color: var(--darkgreen);
-  font-family: Miller Banner, "Times New Roman";
+  font-family: "Miller Banner", "Times New Roman";
   font-style: italic;
   text-transform: uppercase;
   font-size: 3.5rem;
@@ -92,7 +92,7 @@ h1 {
 
 h5 {
   color: var(--darkgreen);
-  font-family: Miller Banner, "Times New Roman";
+  font-family: "Miller Banner", "Times New Roman";
   font-style: italic;
   text-transform: uppercase;
   font-size: 3.5rem;
@@ -115,7 +115,7 @@ h3 {
 
 h4 {
   color: var(--beige);
-  font-family: Miller Banner, "Times New Roman";
+  font-family: "Miller Banner", "Times New Roman";
   font-size: 2rem;
   font-style: italic;
   text-decoration: underline;
@@ -125,7 +125,8 @@ h4 {
 }
 
 p {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Cambria", Georgia, Times, "Times New Roman", serif;
+
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -146,7 +147,7 @@ p {
 
 .h1_port {
   color: var(--darkgreen);
-  font-family: Miller Banner, "Times New Roman";
+  font-family: "" Miller Banner "", "Times New Roman";
   font-style: italic;
   text-transform: uppercase;
   font-size: 3rem;
@@ -206,6 +207,10 @@ hr {
   padding-bottom: 2rem;
 }
 
+.padding_bottom1 {
+  padding-bottom: 0.7rem;
+}
+
 /****************************************Design***************************************/
 .greenbox {
   background-color: var(--lightgreen);
@@ -215,7 +220,7 @@ hr {
 .knap1 {
   background-color: var(--darkgreen);
   color: var(--yellow);
-  font-family: Miller Banner, "Times New Roman";
+  font-family: "Miller Banner", "Times New Roman";
   padding: 2% 7%;
   border-radius: 50px;
   font-size: 1.5rem;
@@ -228,7 +233,7 @@ hr {
 .knap2 {
   background-color: var(--darkgreen);
   color: var(--beige);
-  font-family: Miller Banner, "Times New Roman";
+  font-family: "Miller Banner", "Times New Roman";
   padding: 2% 7%;
   border-radius: 50px;
   font-size: 1.5rem;
@@ -241,7 +246,7 @@ hr {
 .knap3 {
   background-color: var(--darkgreen);
   color: var(--yellow);
-  font-family: Miller Banner, "Times New Roman";
+  font-family: "Miller Banner", "Times New Roman";
   padding: 2% 7%;
   border-radius: 50px;
   font-size: 1.5rem;
@@ -456,7 +461,7 @@ a {
   .knap1 {
     background-color: var(--darkgreen);
     color: var(--yellow);
-    font-family: Miller Banner, "Times New Roman";
+    font-family: "Miller Banner", "Times New Roman";
     padding: 1% 7%;
     border-radius: 50px;
     font-size: 1.5rem;
@@ -469,7 +474,7 @@ a {
   .knap3 {
     background-color: var(--darkgreen);
     color: var(--yellow);
-    font-family: Miller Banner, "Times New Roman";
+    font-family: "Miller Banner", "Times New Roman";
     padding: 3% 7%;
     border-radius: 50px;
     font-size: 1.5rem;
