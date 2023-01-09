@@ -147,7 +147,7 @@ p {
 
 .h1_port {
   color: var(--darkgreen);
-  font-family: "" Miller Banner "", "Times New Roman";
+  font-family: "Miller Banner", "Times New Roman";
   font-style: italic;
   text-transform: uppercase;
   font-size: 3rem;
@@ -300,11 +300,6 @@ a {
   margin-right: 2rem;
 }
 
-/* kan slettes */
-.nav-branding {
-  font-size: 2rem;
-}
-
 .nav-link {
   transition: 0.7s ease;
 }
@@ -397,7 +392,6 @@ a {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
-
   .flex1x2 {
     display: flex;
     flex-direction: column;
@@ -408,13 +402,12 @@ a {
     margin-bottom: 1rem;
   }
 
-  .grid2x3 {
+  .grid2x2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     gap: 5rem;
   }
-
   .inspi_img {
     height: auto;
     width: 80%;
